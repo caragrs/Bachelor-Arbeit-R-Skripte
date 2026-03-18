@@ -107,4 +107,3 @@ plot2 <- ggplot(df_beta, aes(x = gruppe, y = beta, fill = sig)) +
 
 ggsave(paste0(pfad, "plot2_beta_koeffizienten.png"), plot = plot2,
        width = 7, height = 4.5, dpi = 300, bg = "white")
-cat("\nBeide Plots wurden gespeichert unter:", pfad, "\n")
